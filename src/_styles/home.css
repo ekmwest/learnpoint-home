@@ -1,0 +1,16 @@
+.home {
+    
+}
+
+.home__groups {
+    display: flex;
+    gap: 1em;
+}
+
+.home__groups-item {
+    width: 128px;
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 0 0 16px rgba(0,0,0,.1);
+    padding: 1em;
+}

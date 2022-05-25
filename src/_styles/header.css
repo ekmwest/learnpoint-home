@@ -1,0 +1,10 @@
+.header {
+    background-color: green;
+    padding: 16px;
+    text-align: center;
+    color: white;
+}
+
+.header a {
+    color: inherit;
+}
