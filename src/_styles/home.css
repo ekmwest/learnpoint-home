@@ -2,15 +2,23 @@
     
 }
 
+.home__title {
+    text-align: center;
+    margin:0 0 32px ;
+}
+
 .home__groups {
     display: flex;
     gap: 1em;
+    flex-wrap: wrap;
 }
 
 .home__groups-item {
-    width: 128px;
+    width: 200px;
+    height: 200px;
     background-color: #fff;
     border-radius: 6px;
     box-shadow: 0 0 16px rgba(0,0,0,.1);
     padding: 1em;
+    cursor: pointer;
 }
