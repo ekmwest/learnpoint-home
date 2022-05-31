@@ -1,6 +1,6 @@
 .main {
-    max-width: 768px;
-    margin: 0 auto;
+    max-width: 900px;
+    margin: 80px auto;
     padding: 2em;
 }
 
@@ -11,5 +11,5 @@ h4,
 h5 {
     font-weight: 600;
     margin: 0;
-    margin-bottom: 16px;
+    margin-bottom: 8px;
 }

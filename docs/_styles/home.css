@@ -3,7 +3,6 @@
 }
 
 .home__title {
-    text-align: center;
     margin:0 0 32px ;
 }
 
@@ -14,11 +13,26 @@
 }
 
 .home__groups-item {
-    width: 200px;
-    height: 200px;
+    /* box-sizing: border-box; */
+    width: 250px;
+    height: 150px;
     background-color: #fff;
     border-radius: 6px;
     box-shadow: 0 0 16px rgba(0,0,0,.1);
     padding: 1em;
     cursor: pointer;
+    position: relative;
+}
+
+.home__groups-item a {
+    color: inherit;
+    font-weight: 600;
+    font-size: 1.17em;
+}
+
+.home__groups-item p {
+    color: #777;
+    position: absolute;
+    bottom: 0;
+    font-size: 14px;
 }
