@@ -1,22 +1,26 @@
 .group__content {
-    width: 100%;
+    width: 900px;
     height: 800px;
     padding: 1em;
-    margin: 1em 0;
+    margin: 0 auto;
     background-color: #fff;
     border-radius: 4px;
     box-shadow: 0 1px 3px rgb(0 0 0 / 20%);
+}
+
+.group__title {
+    text-align: center;
 }
 
 .group__content-section {
     margin:0 0 2em 0;
 }
 
-.group__content ul {
+.group__content-items {
     display: block;
 }
 
-.group__content ul li {
+.group__content-item {
     padding:0 0 .6em 0;
     color: #0079f2;
 }

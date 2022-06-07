@@ -1,23 +1,25 @@
 .sub-menu {
-    margin: 1em 0 1.5em;
+    /* margin: 0 0 1em; */
+    padding: 0 0 1em;
+    /* border-bottom: 1px solid #ddd; */
 }
 
-.sub-menu ul {
+.sub-menu__items {
     display: flex;
     gap: .5em;
+    justify-content: center;
 }
 
-.sub-menu li {
-    display: flex;   
+.sub-menu__item { 
     padding: .5em .8em;
 }
 
-.sub-menu a {
-    color: inherit;
+.sub-menu__item-link {
+    color: #000;
     text-decoration: none;
 }
 
-.sub-menu li.SELECTED {
+.sub-menu__item.SELECTED {
    background-color: #ddd;
    border-radius: 4px;
    font-weight: 600;
