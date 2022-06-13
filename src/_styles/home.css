@@ -1,23 +1,25 @@
 .home {
-    width: 900px;
+    max-width: 960px;
     margin: 0 auto;
 }
 
 .home__title {
-    margin: 0 0 32px;
+    margin: 32px 0;
     text-align: center;
 }
 
 .home__groups {
     display: flex;
     gap: 1em;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
 .home__groups-item {
     /* box-sizing: border-box; */
-    width: 250px;
-    height: 150px;
+    /* width: 250px;*/
+    height: 150px; 
+    flex: 0 0 15em;
     background-color: #fff;
     border-radius: 6px;
     box-shadow: 0 0 16px rgba(0,0,0,.1);

@@ -1,13 +1,14 @@
 .sub-menu {
-    /* margin: 0 0 1em; */
     padding: 0 0 1em;
-    /* border-bottom: 1px solid #ddd; */
+    max-width: 700px;
+    margin: 0 auto;
 }
 
 .sub-menu__items {
     display: flex;
-    gap: .5em;
-    justify-content: center;
+    gap: unset;
+    justify-content: space-between;
+    overflow-x: auto;
 }
 
 .sub-menu__item { 
