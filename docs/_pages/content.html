@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>empty</title>
+    <title>Learnpoint Home</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="/favicon.svg" type="image/svg+xml">
     <link rel="stylesheet" href="/_styles/default.css">
@@ -12,36 +12,99 @@
     <link rel="stylesheet" href="/_styles/home.css">
     <link rel="stylesheet" href="/_styles/submenu.css">   
     <link rel="stylesheet" href="/_styles/group.css">
+    <link rel="stylesheet" href="/_styles/notifications.css">
     <script src="/_scripts/main.js"></script>
 </head>
 
 <body>
     <header class="header">
-    <nav>
-        <ul>
+    <nav class="header__nav">
+        <ul class="header__nav-menu">
             <li>
-                <a href="/" class="SELECTED">Home</a>
-                <!-- <img src="/_images/house-door-fill.svg" class="header__icon"/> -->
-            </li>                     
-            <li>
-                <a href="/">Calendar</a>
-                <!-- <img src="/_images/calendar-fill.svg" class="header__icon"/> -->
-            </li> 
-        </ul>
-        <ul>         
+                <a href="/" class="header__nav-menu-link SELECTED"><img src="/_images/house-door-fill.svg" class="header__icon"/><span>Hem</span></a>
+            </li>                    
             <li> 
-                <a href="/"><img src="/_images/bell-fill.svg" class="header__icon"/></a>
+                <a class="header__nav-menu-link"><img src="/_images/bell-fill.svg" class="header__icon"/><span id="notifications-toggler">Aviseringar</span></a>
             </li>                    
             <li>
-                <a href="/"><img src="/_images/question-lg.svg" class="header__icon"/></a>
+                <a href="/" class="header__nav-menu-link"><img src="/_images/calendar-fill.svg" class="header__icon"/><span>Kalendar</span></a>
+            </li> 
+        </ul>
+        <ul class="header__nav-tools">                     
+            <li>
+                <a href="/" class="header__nav-menu-link"><img src="/_images/question-lg.svg" class="header__icon"/></a>
             </li>            
             <li>
-                <a href="/"><span class="header__avatar"></span></a>
+                <a href="/" class="header__nav-menu-link"><span class="header__avatar"></span></a>
             </li>  
         </ul>
     </nav>
 </header>
+    <div class="notifications" id="notifications">
+    <h3 class="notifications__title">Ny</h3>
+    <ul class="notifications__items">
+        <li class="notifications__item">
+            <div class="notifications__description">
+                <span>Re: ViaEcole AB - Stig Berg - HT2017</span>
+            </div>
+            <div class="notifications__meta">
+                <span>Kommentar på LIA-plats</span>
+                <span>•</span>
+                <span>Stig B</span>
+                <span>•</span>
+                <span>Lärande i arbete, LIA 1</span>
+                <span>•</span>
+                <span>25 maj</span>
+            </div>
+        </li>
+        <li class="notifications__item">
+            <div class="notifications__description">
+                <span>Re: ViaEcole AB - Stig Berg - HT2017</span>
+            </div>
+            <div class="notifications__meta">
+                <span>Kommentar på LIA-plats</span>
+                <span>•</span>
+                <span>Stig B</span>
+                <span>•</span>
+                <span>Lärande i arbete, LIA 1</span>
+                <span>•</span>
+                <span>25 maj</span>
+            </div>
+        </li>
+    </ul>
 
+    <h3 class="notifications__title">Lästa</h3>
+    <ul class="notifications__items">
+        <li class="notifications__item">
+            <div class="notifications__description">
+                <span>Re: ViaEcole AB - Stig Berg - HT2017</span>
+            </div>
+            <div class="notifications__meta">
+                <span>Kommentar på LIA-plats</span>
+                <span>•</span>
+                <span>Stig B</span>
+                <span>•</span>
+                <span>Lärande i arbete, LIA 1</span>
+                <span>•</span>
+                <span>25 maj</span>
+            </div>
+        </li>
+        <li class="notifications__item">
+            <div class="notifications__description">
+                <span>Re: ViaEcole AB - Stig Berg - HT2017</span>
+            </div>
+            <div class="notifications__meta">
+                <span>Kommentar på LIA-plats</span>
+                <span>•</span>
+                <span>Stig B</span>
+                <span>•</span>
+                <span>Lärande i arbete, LIA 1</span>
+                <span>•</span>
+                <span>25 maj</span>
+            </div>
+        </li>
+    </ul>
+</div>
     <main class="main">
         <div class="group">  
     <div class="group__breadcrumb"><a href="/_pages/group-home.html">Programmering A</a><span>/</span><span>Innehåll</span></div>

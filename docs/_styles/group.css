@@ -34,6 +34,7 @@
 
 .group__content-items {
     display: block;
+    padding-left: 0;
 }
 
 .group__content-item {

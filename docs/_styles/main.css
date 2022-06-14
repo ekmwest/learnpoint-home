@@ -1,7 +1,10 @@
 .main {
-    /* max-width: 1000px; */
     margin: 40px 0;
     padding: 1em;
+}
+
+ul {
+    list-style: none;
 }
 
 h1,

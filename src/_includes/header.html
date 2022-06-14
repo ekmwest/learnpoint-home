@@ -1,24 +1,22 @@
 <header class="header">
-    <nav>
-        <ul>
+    <nav class="header__nav">
+        <ul class="header__nav-menu">
             <li>
-                <a href="/" class="SELECTED">Home</a>
-                <!-- <img src="/_images/house-door-fill.svg" class="header__icon"/> -->
-            </li>                     
-            <li>
-                <a href="/">Calendar</a>
-                <!-- <img src="/_images/calendar-fill.svg" class="header__icon"/> -->
-            </li> 
-        </ul>
-        <ul>         
+                <a href="/" class="header__nav-menu-link SELECTED"><img src="/_images/house-door-fill.svg" class="header__icon"/><span>Hem</span></a>
+            </li>                    
             <li> 
-                <a href="/"><img src="/_images/bell-fill.svg" class="header__icon"/></a>
+                <a class="header__nav-menu-link"><img src="/_images/bell-fill.svg" class="header__icon"/><span id="notifications-toggler">Aviseringar</span></a>
             </li>                    
             <li>
-                <a href="/"><img src="/_images/question-lg.svg" class="header__icon"/></a>
+                <a href="/" class="header__nav-menu-link"><img src="/_images/calendar-fill.svg" class="header__icon"/><span>Kalendar</span></a>
+            </li> 
+        </ul>
+        <ul class="header__nav-tools">                     
+            <li>
+                <a href="/" class="header__nav-menu-link"><img src="/_images/question-lg.svg" class="header__icon"/></a>
             </li>            
             <li>
-                <a href="/"><span class="header__avatar"></span></a>
+                <a href="/" class="header__nav-menu-link"><span class="header__avatar"></span></a>
             </li>  
         </ul>
     </nav>

@@ -9,6 +9,7 @@
     gap: unset;
     justify-content: space-between;
     overflow-x: auto;
+    list-style: none;
 }
 
 .sub-menu__item { 
