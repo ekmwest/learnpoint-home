@@ -1,0 +1,36 @@
+.item__header {
+    background: #fff;
+    margin: 2em 0;
+    text-align: center;
+    padding: 1em;
+    /* box-shadow: 0 0.1rem .5rem rgb(0 0 0 / 15%); */
+}
+
+.item__title {
+    margin: 16px 0 4px;
+}
+
+.item__header-content {   
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.item__breadcrumb {
+    display: flex;
+    gap: 4px;
+    font-size: 14px;
+    justify-content: center;
+}
+
+.item__breadcrumb a {
+    color: #0079f2;
+    text-decoration: none;
+}
+
+.item__content {
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 30px;
+    font-size: 18px;
+    padding: 0 1em;
+}

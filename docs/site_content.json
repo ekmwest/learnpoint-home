@@ -3,7 +3,7 @@
         "title": "Learnpoint Home",
         "description": "",
         "url": "/index.html",
-        "content": "Yh-skolan Yh-skolan Skola JavaScript EK17 --> Kurs EK17 Programmering Kurs EK15_PR1 Lärande i arbete EK15_LIA1 --> Kurs EK15_LIA1 Grundläggande teori och praktik EK15_GTP --> Kurs EK15_GTP Arbetsmiljö och säkerhet FMT14_5 --> Kurs FMT14_5 Bestämmelser och regelverk --> Kurs FMT14_8 Flygmotorunderhåll turbinmotorer FMT14_4 --> Kurs FMT14_4"
+        "content": "Yh-skolan Yh-skolan Skola JavaScript EK17 --> Kurs EK17 Programmering A Kurs EK15_PR1 Lärande i arbete EK15_LIA1 --> Kurs EK15_LIA1 Grundläggande teori och praktik EK15_GTP --> Kurs EK15_GTP Arbetsmiljö och säkerhet FMT14_5 --> Kurs FMT14_5 Bestämmelser och regelverk --> Kurs FMT14_8 Flygmotorunderhåll turbinmotorer FMT14_4 --> Kurs FMT14_4"
     },
     {
         "title": "Learnpoint Home",
@@ -15,13 +15,19 @@
         "title": "Learnpoint Home",
         "description": "",
         "url": "/_pages/group-home.html",
-        "content": "Programmering A Innehåll Nyheter kalendar Nyheter Löggböcker Betyg Deltagare Personal Om"
+        "content": "Programmering A Innehåll Nyheter kalendar Löggböcker Betyg Deltagare Personal Om"
     },
     {
         "title": "Learnpoint Home",
         "description": "",
         "url": "/_pages/group.html",
         "content": "JavaScript Innehåll Nyheter Kalendar Loggböcker Betyg Deltagare Personal Om JavaScript basics Getting started Variables, arrays Interactivity with JavaScript Data Manipulation in JavaScript JavaScript events Getting started Objects Simple game"
+    },
+    {
+        "title": "Learnpoint Home",
+        "description": "",
+        "url": "/_pages/item-v1.html",
+        "content": "Programmering A Programmering A/Innehåll/Variables, arrays Variables, arrays Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus in lectus nec dui dignissim consequat vel nec leo. Aliquam imperdiet, nisl at vestibulum tristique, nibh ex elementum justo, vel porta odio ante imperdiet elit. Integer id mi mauris. Etiam posuere interdum magna eget hendrerit. In pretium, mi nec pellentesque dignissim, ipsum neque tincidunt augue, a semper quam sem non metus. Nullam risus nunc, porttitor sodales tincidunt id, tempus in orci. Etiam in felis nisi. Aliquam venenatis vehicula tellus non interdum. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque non dictum quam. Aenean id feugiat nisl, quis placerat quam. Sed pellentesque magna ipsum, quis iaculis nisl rhoncus non. Arrays Aenean efficitur egestas nunc in convallis. Integer massa libero, porttitor at orci id, dignissim consequat erat. Maecenas elementum, sem sed consequat ultrices, orci magna tempor lectus, sed placerat erat dui id dui. Nunc imperdiet sem mauris, eu aliquet ante pretium ut. Praesent urna diam, dapibus eget tortor at, viverra condimentum turpis. Praesent malesuada, nunc quis aliquam luctus, orci lectus finibus est, eu malesuada massa elit non massa. Quisque tristique risus eget quam tempor facilisis."
     },
     {
         "title": "Learnpoint Home",

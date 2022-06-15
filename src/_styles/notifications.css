@@ -76,3 +76,10 @@
     border-top: 1px solid #ddd;   
     padding: 0 12px;
 }
+
+.notifications__view-more {
+    color: #0079f2;
+    display: block;
+    padding: 12px 0 20px;
+    text-align: center;
+}
