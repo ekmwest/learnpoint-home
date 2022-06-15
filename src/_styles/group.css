@@ -67,6 +67,11 @@
     position: relative;
 }
 
+.group__content-item a {
+    color: #0079f2;
+    text-decoration: underline;
+}
+
 .group-home__feature a {
     color: inherit;
     font-size: 1.17em;
