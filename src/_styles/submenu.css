@@ -10,6 +10,7 @@
     justify-content: space-between;
     overflow-x: auto;
     list-style: none;
+    padding: 0;
 }
 
 .sub-menu__item { 

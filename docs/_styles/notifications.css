@@ -1,6 +1,6 @@
 .notifications {
     font-size: 14px;
-    position: absolute;
+    position: fixed;
     width: 640px;
     left: 0;
     right: 0;
@@ -12,6 +12,12 @@
     border-radius: 8px;
     box-shadow: 0 0 4px rgb(0 0 0 / 15%), 0 5px 10px rgb(0 0 0 / 5%);
     display: none;
+}
+
+.is-mobile .notifications {
+    width: 100%;
+    top: 50px;
+    border-radius: 0;
 }
 
 .notifications:before {
@@ -47,7 +53,7 @@
     text-decoration: none;
     color: inherit;
     display: flex;
-    
+
     gap: 12px;
 }
 
@@ -59,7 +65,7 @@
     background-color: #9ed0e6;
 }
 
-.notifications__item.NEWS .notifications__icon{
+.notifications__item.NEWS .notifications__icon {
     background-color: #f98080;
 }
 
@@ -86,13 +92,13 @@
     line-height: 1.2;
 }
 
-.notifications__new {  
+.notifications__new {
     padding: 0 12px;
 }
 
 .notifications__read {
     background-color: #f3f3f3;
-    border-top: 1px solid #ddd;   
+    border-top: 1px solid #ddd;
     padding: 0 12px;
 }
 

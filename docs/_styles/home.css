@@ -15,6 +15,10 @@
     flex-wrap: wrap;
 }
 
+.is-mobile .home__groups {
+    display: block;
+}
+
 .home__groups-item {
     /* box-sizing: border-box; */
     /* width: 250px;*/
@@ -26,6 +30,10 @@
     padding: 1em;
     cursor: pointer;
     position: relative;
+}
+
+.is-mobile .home__groups-item {
+    margin: 16px;
 }
 
 .home__groups-item a {
