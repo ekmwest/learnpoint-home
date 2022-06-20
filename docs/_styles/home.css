@@ -8,6 +8,29 @@
     text-align: center;
 }
 
+.home__search {
+    text-align:center;
+}
+
+.home__search-input {
+    display: block;
+    padding: 6px 8px;
+    font-size: 14px;
+    font-family: inherit;
+    line-height: 20px;
+    color: #333;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #d0d0d0;
+    border-radius: 3px;
+    transition-property: border-color, box-shadow;
+    transition-duration: .2s;
+    max-width: 500px;
+    margin: 0px auto 36px;
+    vertical-align: baseline;
+    -webkit-appearance: none;
+}
+
 .home__groups {
     display: flex;
     gap: 1em;
