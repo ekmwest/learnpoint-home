@@ -1,0 +1,39 @@
+{    
+    "groups": [
+        {
+            "id": 1,
+            "name": "YH-SKolan",
+            "code": "skola"
+        },
+        {
+            "id": 2,
+            "name": "JavaScript 3",
+            "code": "EK17_JS"
+        },
+        {
+            "id": 3,
+            "name": "Programmering A",
+            "code": "EK15_PR1"
+        },
+        {
+            "id": 4,
+            "name": "Grundläggande teori och praktik",
+            "code": "EK15_GTP"
+        },
+        {
+            "id": 5,
+            "name": "Projektmetodik, kommunikation och kundbemötande",
+            "code": "FMT14_5"
+        },
+        {
+            "id": 6,
+            "name": "Informationsarkitektur",
+            "code": "FMT14_8"
+        },
+        {
+            "id": 7,
+            "name": "Verktyg för prototypproduktion",
+            "code": "FMT14_4"
+        }
+    ]
+}

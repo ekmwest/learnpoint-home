@@ -6,6 +6,13 @@
     background-color: #fff;
     border-radius: 4px;
     box-shadow: 0 1px 3px rgb(0 0 0 / 20%);
+    position: relative;
+    padding:2em 4em;
+}
+
+.is-mobile .group__content {
+    max-width: unset;
+    padding: 1em;
 }
 
 .group__breadcrumb {
@@ -28,14 +35,58 @@
 
 .group__content-page-title {
     margin: 8px 0 0;
+    text-align: center; 
+}
+
+.group__content-discussion {
+    margin: 4px 0 20px;
     text-align: center;
+    color: #0079f2;
+    display:block;
+    /* position : absolute;  */
+    right: 4em;
+    top: 1.5em;
+    font-size: 14px;
 }
 
 .group__content-course-name {
-    margin: 2px 0 16px;
-    text-align: center;
+    margin: 2px 0 4px;
     color: rgb(146, 145, 145);   
     font-weight: normal;
+    text-align: center; 
+}
+
+.group__content-menu-tabs {
+    display: flex;
+    margin: 1em 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.group__content-menu-tab {
+    text-decoration: none;
+    flex: 0 0 auto;
+    width: 72px;
+    text-align: center;
+    cursor: pointer;
+    padding: 4px 24px;
+    color: #444;
+    border-radius: 4px 0 0 4px;
+    border: 1px solid #777;
+}
+
+.group__content-menu-tab.SELECTED {
+    background-color: #777;
+    color: #fff;
+}
+
+.group__content-menu-tab:first-child {
+    border-right: 0;
+}
+
+.group__content-menu-tab:last-child {
+    border-radius: 0 4px 4px 0;
+    border-left: 0;
 }
 
 .group__title {
@@ -49,7 +100,7 @@
 
 .group__content-text {
     margin:0 0 2em 0;
-    padding:0 4em;
+    /* padding:0 4em; */
     font-size: 18px;
     line-height: 30px;
 }
